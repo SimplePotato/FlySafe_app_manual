@@ -1,0 +1,125 @@
+body {
+    /*background-image: url(https://static.pexels.com/photos/96622/pexels-photo-96622.jpeg);
+    background-repeat:round;*/
+    font-family:sans-serif;
+}
+#uvod_1{
+  font-size: 1.3em;
+  padding:5px;
+  margin-top: 30px;
+}
+.uvod_2 {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  padding-top: 1px;
+  background-color: rgba(147, 187, 62, 1)
+}
+.floating_box{
+  float: left;
+}
+
+.rr {
+  padding: 3%;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin-right: 50%;
+  float:left;
+}
+
+.registracija_gif{
+  position: sticky;
+  margin-right: 10px;
+  margin-top: 20%;
+}
+
+.meni{
+  padding: 6%;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-left: 40%;
+  display: flex;
+  position: static;
+}
+#meni_gif{
+
+
+}
+
+#vzletišča {
+  border-radius: 25px;
+  margin: 30px;
+  padding: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#dnevni_pregled {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#zadnji_leti_prijateljev {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#prijatelji {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#lociraj_prijatelje {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#obvestila {
+  border-radius: 25px;
+  padding: 30px;
+  smargin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#nalozi_igc {
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(40, 57, 64, 0.35)
+}
+
+#logo {
+  margin-right: 40px;
+  margin-top: -27px;
+  position: static;
+  z-index: 1;
+}
+h1{
+  background-color: rgba(3, 15, 52, 0.46)
+  text-decoration: underline;
+  font-size: 4em ;
+  text-align: center;
+  margin-top: 32px;
+}
+h2{
+  font-size: 4em;
+  text-align: center;
+}
+#uvod_title{
+  text-align: left;
+  margin-left: 14%;
+}
+p {
+    font-size: 2em;
+}
+ul{
+  font-size: 2em;
+}

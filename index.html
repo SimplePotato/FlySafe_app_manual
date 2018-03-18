@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="si">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FlySafe Navodila</title>
+
+    <link rel="stylesheet" href="flystylee.css">
+
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="manual_full_article">
+
+      <h1>Hitra navodila za aplikacijo FLySafe</h1>
+
+            <br />
+
+            <!--logo-->
+            <a href="https://play.google.com/store/apps/details?id=com.xcglobe.xcglobesites"><img id="logo"
+              src="https://i.imgur.com/qpKNjcd.png" style="width:120px;height:120px;" alt="FlySafe Logo" align="right">
+            </a>
+
+      <div class="uvod">
+
+        <div class="uvod_registracija_racuna">
+
+            <h2 id="uvod_title">Uvod</h2>
+
+                <p>
+                  Pri prvem zagonu aplikacije FlySafe vas ta vpraša po vaši E-pošti ter geslu.
+                  Po novem je možnost prijave tudi z vašim <strong>Google računom</strong>.
+                  V kolikor nimate google računa izberite <strong>Registracija</strong>
+                  in vpišite E-poštni naslov ter poljubno
+                  geslo katerega si zapomnite in izberite <strong>Pošlji</strong>.<br />
+                  Po prijavi se vam na vpisan E-naslov pošlje <strong>potrditveni Email</strong>
+                  v katerem prejmete povezavo za <strong>aktivacijo</strong> računa FlySafe.
+                  Ko to storite ste aktivirali svoj FlySafe račun in se lahko prijavite z prej vpisanimi podatki.
+                <p/>
+
+                <span><img src="img/registracija_racuna.gif" alt="Registracija računa" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END uvod_registracija_računa -->
+
+        <div class="meni_seznam">
+
+                <p>
+                  <strong>Da bi nemoteno sledili navodilom predlagam, da si najprej pogledate kako dodamo prijatelja
+                  v meniju <a href="#prijatelji">"prijatelji"</a></strong>
+                </p>
+                <p>
+                  S pritiskom na <i class="material-icons">&#xe5d2;</i>
+                  ikono levo zgoraj se vam odpre navigacijski meni, kateri zajema naslednje možnosti:
+                </p>
+
+                <ul>
+
+                  <li><i class="material-icons">terrain</i><a href="#vzletisca"> Vzletišča</a></li>
+
+                  <li><i class="material-icons">view_list</i><a href="#dnevni_pregled"> Dnevni pregled</a></li>
+
+                  <li><i class="material-icons">view_list</i><a href="#zadnji_leti_prijateljev"> Zadnji leti prijateljev</a></li>
+
+                  <li><i class="material-icons">person_add</i><a href="#prijatelji"> Prijatelji</a></li>
+
+                  <li><i class="material-icons">place</i><a href="#lociraj_prijatelje"> Lociraj prijatelje</a></li>
+
+                  <li><i class="material-icons">notifications</i><a href="#obvestila"> Obvestila</a></li>
+
+                  <li><i class="material-icons">file_upload</i><a href="#nalozi IGC / GPX">Naloži IGC/GPX</a></li>
+
+                  <li><i class="material-icons">build</i> Nastavitve</li>
+
+                </ul>
+
+                <span><img src="img/meni_seznam.gif" alt="meni" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END meni_seznam -->
+
+        <div class="meni_statistika">
+
+            <p>
+              Če pritisnemo na profilno sliko se vam pokažejo vaši statistični
+              podatki letenja po posameznih obdobjih.
+              Za podatke o naletenih urah vašega padala kliknite na
+              <i class="material-icons">more_vert</i> ikono v desnem zgornjem kotu.
+              Za ogled letov v določenem letu kliknite na željeno sezono.
+              Za porazdelitev letov od najdaljšega navzdol kliknite na
+              <i class="material-icons">sort</i>  ikono zgoraj desno.
+            </p>
+
+            <span><img src="img/meni_statistika.gif" alt="statistika" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END meni_profilna_slika -->
+
+      </div> <!-- END uvod -->
+
+          <br />
+
+        <!-- ....................Vzletišča.......................... -->
+
+      <div class="vzletisca">
+
+        <div class="vzletisca_tocke">
+
+          <h2 id="vzletisca">Vzletišča</h2>
+
+          <p>
+            V meniju vzletišča imate na zemljevidu <strong>prikazana vsa vzletišča</strong> označena z krogci <i class="material-icons" style="color:white">brightness_1</i> različnih barv.
+            <em>(Nastavitev prikaza vzletišč je možen z izbiro <i class="material-icons">more_vert</i> ikone ter tam izberite nastavitve vzletišč)</em>
+          </p>
+
+          <ul>
+            <li>
+              <p>
+              <i class="material-icons" style="color:white">brightness_1</i>
+              Točka vzletišča
+              </p>
+            </li>
+
+            <li>
+              <p>
+              <i class="material-icons" style="color:green">brightness_1</i>
+                Zeleno obarvan krog prikazuje vzletišče iz katerega ste vi že vzletli.
+              </p>
+            </li>
+
+            <li>
+              <p>
+              <i class="material-icons" style="color:red">brightness_1</i>
+                Vzletišče, ki je obiskano bolj pogosto in ima zabeleženih 50+ vzletov
+              </p>
+            </li>
+          </ul>
+
+          <p>
+            Za prikaz informacij o posameznem vzlatišču ga s pritiskom na krogec izberemo <em>
+            (Za lažjo izbiro si približajte zemljevid tako, da z dvema prstoma naenkrat podrsate
+            po ekranu eden od drugega)</em>.<br/> Prikaže se nam ime vzletišča ter koliko
+            prijavljenih vzletov smo od tam že zabeležili.
+            V kolikor še enkrat pritisnemo na prikazan podatek se nam odpre novo okno z vsemi
+            prijavljenimi leti s tega vzletišča.
+            Tudi tu lahko razvrstimo prikaz letov od najdaljšega navzdol z pritiskom na
+            <i class="material-icons">sort</i> ikono.
+            Poleg je tudi <i class="material-icons">directions_walk</i> ikona s katero pridobimo
+            vizualni prikaz poti, po kateri so se ostali peš povzpeli do tega vzletišča. Da tej poti
+            lažje sledimo, nam je v pomoč ikona <i class="material-icons">my_location</i> katera
+            določi naš položaj. (Za to funkcijo morate imeti vklopljen GPS signal.)
+          </p>
+
+          <span><img src="img/vzletisca_tocke.gif" alt="vzletišča in h&f" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END vzletišča_točke -->
+
+        <div class="vzletisca_tocke_nastavitve"
+          <p>
+            V kolikor želite sami določiti prikaz vzletišč po njihovih lastnostih to storite z pritiskom
+            <i class="material-icons">more_vert</i> ikone ter izberete <strong>nastavitve vzletišč</strong>.
+          </p>
+
+          <span><img src="img/vzletisca_tocke_nastavitve.gif" alt="nastavitev točk" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END vzletišča_točke_nastavitve -->
+
+        <div class="vzletisca_veter">
+
+          <p>
+            Posamezne <strong>vremenske postaje</strong> so označene z puščicami
+            <i class="material-icons" style="color:grey">forward</i>  katere prikazujejo smer in moč vetra.
+            <em>(V tisto smer kamor kaže puščica v tisti smeri piha veter)</em>.<br />
+            Moč vetra se obračunava kot povprečje zadnjih 10ih minut. in so spodnje primerjave zgolj približne.
+            <br />
+            Za ogled histograma vremenske postaje pritisnite na podatke izbrane postaje nakar se odpre okno
+            v brskalniku z zgodovinskimi podatki te postaje.
+          <p/>
+
+          <ul>
+            <li>
+              <i class="material-icons" style="color:grey">forward</i>
+              <p>
+                Šibak vetrič ali brezvetrje
+              </p>
+            </li>
+
+            <li>
+              <i class="material-icons" style="color:green">forward</i>
+              <p>
+                rahel veter (1-4 m/s)
+              </p>
+            </li>
+
+            <li>
+              <i class="material-icons" style="color:yellow">forward</i>
+              <p>
+                Zmeren veter (5-7 m/s)
+              </p>
+            </li>
+
+            <li>
+              <i class="material-icons" style="color:orange">forward</i>
+              <p>
+                Močan veter (7-9 m/s)
+              </p>
+            </li>
+
+            <li>
+              <i class="material-icons" style="color:red">forward</i>
+              <p>
+                Zelo močan veter ( nad 9 m/s)
+              </p>
+            </li>
+
+          </ul>
+
+          <span><img src="img/vzletisca_veter.gif" alt="vremenske postaje" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END vzletišča_veter -->
+
+        <div class="vzletisca_lt">
+
+          <p>
+            Poleg vzletišč in vremenskih postaj pa vidimo na zemljevidu tudi tiste pilote,
+            kateri delijo svojo lokacijo preko sledenja v živo, kot jih vidimo na sledenju
+            v živo na strani <a href="http://xcglobe.com/livetrack" title="xcglobe">XCglobe</a>.
+            Če vidimo padalo oranžno obarvano pomeni, da padalec oddaja svojo lokacijo oz. jo je
+            oddajal še do pred kratkim. V kolikor ni bilo oddanega signala več kot 2h se padalo
+            obarva sive barve katero je vidno še nadaljnih 24h.
+          </p>
+
+          <span><img src="img/vzletisca_lt.gif" alt="podatki LiveTrack" style="width:300px;height:500px;"></span>
+
+          <br />
+
+        <p><strong>Na zemljevidu je možno izbrati tudi navigiranje do izbrane točke kot je
+          vzletišče, pilot ali vremenska postaja z izbiro ikone desno spodaj</strong>
+        </p>
+
+        <span><img src="img/vzletisca_lt2.gif" alt="navigacija do točke" style="width:300px;height:500px;"></span>
+
+        </div> <!-- END vzletišča_lt -->
+
+      </div> <!-- END vzletišča -->
+
+        <br />
+
+        <!-- ........................DNEVNI PREGLED................................-->
+
+      <div class="dnevni_pregled">
+
+          <h2 id="dnevni_pregled">Dnevni pregled</h2>
+
+          <p>
+            V dnevnem pregledu so nam prikazani vsi javno prijavljeni leti na današnji dan.
+            Lahko se pa tudi pomikate po dnevih nazaj ali naprej z ikonami na vrhu ekrana
+            <i class="material-icons">chevron_left</i>
+            <i class="material-icons">chevron_right</i>.
+          </p>
+
+          <img src="img/dnevni_pregled.gif" alt="dnevni pregled letov" style="width:300px;height:500px;">
+
+      </div> <!-- END dnevni_pregled -->
+
+        <br />
+
+        <!-- .....................ZADNJI LETI PRIJATELJEV..........................-->
+
+      <div class="zadnji_leti_prijateljev">
+
+          <h2 id="zadnji_leti_prijateljev">Zadnji leti prijateljev</h2>
+
+          <p>
+            Kaj vidite v tem meniju vam pove že ime samo.
+            Tu vidimo vse objavljene lete, ki jih prijatelji delijo z nami.
+            <em>(Kako določiti prijatelje v aplikaciji je opisano v naslednjem poglavju “Prijatelji”)</em>
+            <br />
+            V tem meniju lehko vidite tudi zadnje všečkane lete, zadnje komentarje in pa
+            že omenjeno zadnje leti vaših prijateljev.
+          </p>
+
+      </div> <!-- END zadnji_leti_prijateljev -->
+
+        <br />
+
+        <!-- ..........................PRIJATELJI.................................-->
+
+      <div class="prijatelji">
+
+        <h2 id="prijatelji">Prijatelji</h2>
+
+          <p>
+            Da dodamo prijatelja ga moramo najprej poiskati v iskalnem polju “najdi pilote” z izbiro
+            <i class="material-icons">search</i> ikone.
+            Ko prijatelja najdemo pritisnemo na oblaček
+            <i class="material-icons">cloud_queue</i>, da se ta polno obarva
+            <i class="material-icons">cloud</i>. Za izhod iskanja pritisnemo tipko za nazaj.
+            Če je vse prav imate sedaj prikazane izbrane prijatelje. Seveda je možno it tudi v obratno smer.
+            <br />
+            Sedaj lahko s pritiskom na prijatelja z njim delite svojo lokacijo
+            <em>(Deluje tako, da oddate svojo lokacijo le takrat ko nekdo od prijateljev to
+              od vas zahteva. S tem občutno podaljšate delovanje vaše baterije in je zato n
+              jena poraba zanemarljiva.)</em>
+            Tu lahko opravljate tudi z obvestili. Ali želite biti obveščeni preko tako imenovanih
+             “Puš sporočil” o prijateljevem pristanku oz. objavi leta in ostalih aktivnostih.
+             Lahko pa tudi izklopite te funkcije.
+          </p>
+
+          <img src="img/prijatelji.gif" alt="Registracija računa" style="width:300px;height:500px;">
+
+      </div> <!-- END prijatelji -->
+
+        <br />
+
+        <!--........................LOCIRAJ PRIJATELJE............................-->
+
+      <div class="lociraj_prijatelje">
+
+          <h2 id="lociraj_prijatelje">Lociraj prijatelje</h2>
+
+            <p><strong>Priporočam, da si deljenje lokacije nastavite v miru in preverite njeno delovanje
+            predno ste vpeti v padalo. Tako boste šoferju in vašim ljubim prikrajšali pot, čas in pa skrbi.</strong></p>
+
+            <p>
+              V tem meniju so vsi prijatelji, kateri z vami delijo svojo lokacijo. S pritiskom na
+              prijatelja katerega želite locirati se vam odpre zemljevid ter njegova pozicija.
+              S pritiskom na njegovo lokacijo se vam ponudi možnost izbire uporabe zunanje
+              aplikacije kot je google maps za lažje navigiranje do njega. Seveda tudi tu lahko
+              vidimo svojo pozicijo z pritiskom na <i class="material-icons">my_location</i> ikono in
+              pa tudi možnost navigacije do te osebe. To še posabaj pride prav šoferjem, da lažje sledijo
+              in posledično hitreje poberejo.
+              <br/>Če vi delite lokacijo z ostalimi in kdo od njih zahteva vašo lokacijo vas o tem
+              opozori aplikacija z "puš obvestilom", da je nekdo zahteval vašo lokacijo.
+            </p>
+
+            <img src="img/lociraj_prijatelje.gif" alt="Registracija računa" style="width:300px;height:500px;">
+
+      </div> <!-- END lociraj_prijatelje -->
+
+       <br />
+
+        <!--.............................OBVESTILA.............................-->
+
+      <div class="obvestila">
+
+          <h2 id="obvestila">Obvestila</h2>
+
+            <p>
+              V tem meniju se nahajajo vsa dosedanja obvestila. Če se vam kdaj zgodi, da po pomoti
+              počistite “puš obvestila” jih najdete tu notri.
+            </p>
+
+            <img src="img/obvestila.png" alt="obvestila" style="width:300px;height:500px;">
+
+      </div> <!-- END obvestila -->
+
+        <br />
+
+        <!--..........................NALOŽI IGC /GPX.........................-->
+
+      <div class="nalozi_igc">
+
+        <div class="nalozi_igc_izbira">
+
+          <h2 id="nalozi IGC / GPX">Naloži IGC / GPX </h2>
+
+            <p>
+              Ena od čarobnih funkcij aplikacije FlySafe je ta, da po pristanku ta samodejno
+              poišče posnetek leta v mapah kamor jih shrani vaša poljubna aplikacija za letenje
+              (FlyMe, XCtrack, XCsoar…) in ga le ta čez 15 minut naloži samodejno. Možen je tudi
+              izklop samodejnega nalaganja  v nastavitvah s pritiskom na
+              <i class="material-icons">settings</i> ikono in tam odstranimo izbiro <em>"Samodejno
+                naloži nove IGC/GPX datoteke."<em/>Tu lahko izbirate tudi ali se leti nalagajo kot:
+              <br />
+              <ul>
+                <li><i class="material-icons">lock_outline</i> zasebni <em>(vidni samo vam)</em></li>
+
+                <li><i class="material-icons">group</i> samo prijatelji <em>(vidni le prijateljem katere imame izbrane)</em></li>
+
+                <li><i class="material-icons">lock_open</i> neobjavljeno <em>(vidno samo tistim kateri imajo URL povezavo do datoteke)</em></li>
+
+                <li><i class="material-icons">public</i> javno <em>(vidni vsem)</em></li>
+              </ul>
+            </p>
+
+            <img src="img/nalozi_igc_izbira.gif" alt="nalozi igc izbira" style="width:300px;height:500px;">
+
+        </div> <!-- END nalozi_igc_izbira -->
+
+        <div class="nalozi_igc_folder">
+
+          <p>
+            <em>Prednastavljene so že poti za samodejno nalaganje do map aplikacij :
+              FlyMe, XCtrack, XCsoar ter OudieLive(Naviter). Za dodajanje novih
+              poti ostalih aplikacij izberemo z <i class="material-icons">create_new_folder</i> ikono.</em>
+              Na tej premikajoči se sliki sem dodal mapo kjer shranim gpx datoteke poti katere posnamem
+              z aplikacijo ViewRanger.
+          </p>
+
+          <img src="img/nalozi_igc_folder.gif" alt="nastavitve mape" style="width:300px;height:500px;">
+
+        </div> <!-- END nalozi_igc_folder -->
+
+        <div class="nalozi_igc_predogled">
+
+          <p>
+            Za lažji pregled med datotekami vam je lahko v pomoč predogled opravljene poti na zemljevidu
+            kjer vam izriše opravljeno pot.Za predogled datoteke na zemljevidu izberite željeno datoteko ter izberite predogled.
+          </p>
+
+          <img src="img/nalozi_igc_predogled.gif" alt="Predogled poti" style="width:300px;height:500px;">
+
+        </div> <!-- END nalozi_igc_predogled -->
+
+        <!--
+        <div class="nalozi_igc_vse">
+
+          <p>
+            Če želite naložiti vse datoteke naenkrat, pritisnite na  ikono v spodnjem desnem delu ekrana.
+            <span><img src="img/registracija_računa.gif" alt="Registracija računa" style="width:50px;height:50px;"></span>
+          </p>
+
+        </div> <! END nalozi_igc_vse >
+        -->
+
+        <div class="nalozi_igc_barve">
+
+          <p>
+            V kolikor je datoteka uspešno naložena v oblak FlySafe se ta obarva zeleno.
+          </p>
+
+          <span><img src="img/fsgreen.png" alt="Ok" style="width:300px;height:60px;"></span>
+
+          <p>
+            Če se vam obarva oranžno pomeni, da je enaka pot že naložena oz. že obstaja v oblaku FlySafe.
+            (Ponavadi se to dogaja, če snemate pot z več aplikacijami naenkrat in imate zato dve enaki posneti poti.)
+          </p>
+
+          <span><img src="img/fsorange.png" alt="orange" style="width:300px;height:60px;"></span>
+
+          <p>
+            Rdeče obarvana datoteka pa pomeni, da je nekje napaka.
+          </p>
+
+          <span><img src="img/fsred.png" alt="Red" style="width:300px;height:60px;"></span>
+
+        </div> <!-- END nalozi_igc_barve -->
+
+      </div> <!--END nalozi_igc-->
+
+      <!--
+
+      <div class="nastavite">
+          Tole mi je ušlo in moram še uredit!!!
+      </div>
+    -->
+
+      <br />
+      <br />
+
+      <!-- ......................ZAKLJUČEK................................-->
+
+      <div class="zakljucek">
+
+        <p>
+          <strong>Avtor tega članka ni razvijalec aplikacije in je le navdušen
+             uporabnik, ki je aplikacijo FlySafe za vas preizkušal doma in na terenu.</strong>
+          <em>
+          Vsekakor sem mnenja, da v kolikor se odpravite letet je vaša dolžnost, da to nekomu sporočite.
+          Z aplikacijo FlySafe je deljenje vaše lokacije zelo preprosto. Z njo boste marsikomu prihranili
+          čas, skrbi in nafto. To, da je nepogrešljiva v primeru nezgod je samoumevno. Reševalcem prikrajšamo
+          čas sebi pa življenje. Pa da ne bom opisoval črnih scenarijev bom opisal preprost vsakotedenski primer
+          med letalno sezono. <br />
+          Letenje v skupini se ponavadi odvija tudi tako, da imamo svojega šoferja.
+          Sam sem se že dostikrat znašel v situaciji, da preprosto nisem vedel v katero smer naredim z avtom
+          premik in zato čakal in šele potem ko je pilot pristal 50+ km od moje lokacije sem jaz štartal. Zaradi takega načina
+          sem izgubil že kar nekaj ur popolnoma po nepotrebi.
+          Aplikacija deluje v ozadju in zato ne porabi veliko energije tako, da sedaj nekateri ne morate imeti
+          več izgovorov zakaj nebi delili svoje lokacije.
+
+          <!--Zaradi nezmožnostjo dogovora z upraviteljem XCgloba (OLCja) se je FlySafe začel razvijat v svojo smer in
+          ponuja polno funkcionalnost le, če svoje lete naložite tudi na <a href="www.flysafe.io">www.FlySafe.io</a> -->
+
+          FlySafe je za svojo mladost že precej zrel in se tudi pogosto nadgrajuje. Zato razvijalec naprošča
+          vse kateri opazijo kakšne napake v aplikaciji da ga o tem obvestijo. Zaželjeni so tudi predlogi in graje
+          katere lahko pišete na <a href="mailto:flysafe@klv.si?bcc=domen.kastner@klv.si?subject=Prebral%20sem%20navodila%20in%20odgovarjam%20s%20tem%20mailom">e-Mail</a>
+          </em>
+        </p>
+
+      </div> <!-- END zaključek -->
+
+    </div> <!--END manual_full_article-->
+
+  </body>
+</html>
